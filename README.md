@@ -122,6 +122,7 @@ Documents:      "Summarize the document I uploaded"
 project/
 ├── app.py                 # Main application file
 ├── requirements.txt       # Python dependencies
+├── .gitignore
 └── README.md             # This file
 ```
 
