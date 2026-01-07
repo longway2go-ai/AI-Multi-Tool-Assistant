@@ -5,24 +5,20 @@ langchain-google-genai>=0.2.0
 langgraph>=0.2.0
 langchain-core>=0.3.79
 langchain-community>=0.3.31
-
+langchain-text-splitters>=0.3.0  # ADD THIS LINE
 # LLM & Embeddings
 google-generativeai>=0.8.0
-
 # Vector Store & RAG
 faiss-cpu>=1.8.0
-
 # Document Processing
 pypdf>=4.0.0
 python-docx>=1.2.0
 docx2txt>=0.8
-
 # Web Search & APIs
 duckduckgo-search>=4.4.0
 requests>=2.32.0
-
 # Utilities
 pytz>=2024.1
-
+geopy>=2.4.0  # ALSO ADD THIS - you're using it in get_weather but it's missing
 # Type Hints
 typing-extensions>=4.10.0
